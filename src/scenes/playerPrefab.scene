@@ -1,0 +1,96 @@
+{
+    "id": "e00164d9-0f43-4614-b045-9834688c1082",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT"
+    },
+    "displayList": [
+        {
+            "type": "ArcadeSprite",
+            "id": "2abc19b2-b86e-4e24-bb5c-6ccf39297e09",
+            "label": "player",
+            "texture": {
+                "key": "player",
+                "frame": 4
+            },
+            "body.bounce.x": 0.2,
+            "body.bounce.y": 0.2,
+            "collideWorldBounds": true,
+            "body.width": 32,
+            "body.height": 35,
+            "body.offset.y": 13
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "20d10961-cbd9-4569-8f7b-bfd29537f628",
+            "type": "Keyboard.Key",
+            "label": "leftKey",
+            "keyCode": "LEFT"
+        },
+        {
+            "id": "95866595-acef-4c92-949f-01935f8a3e97",
+            "type": "Keyboard.Key",
+            "label": "rightKey",
+            "keyCode": "RIGHT"
+        },
+        {
+            "id": "7e69f11c-475e-4d03-a2dd-9295bada8b3c",
+            "type": "Keyboard.Key",
+            "label": "upKey",
+            "keyCode": "UP"
+        },
+        {
+            "id": "acbc9df5-a8a6-445c-a01c-c747a89935ee",
+            "type": "Keyboard.Key",
+            "label": "AKey",
+            "keyCode": "A"
+        },
+        {
+            "id": "3e875316-4ecd-4036-a2c4-69a69145c1b5",
+            "type": "Keyboard.Key",
+            "label": "DKey",
+            "keyCode": "D"
+        },
+        {
+            "id": "bacb18f9-bc93-4843-b03e-3dcd272cd539",
+            "type": "Keyboard.Key",
+            "label": "WKey",
+            "keyCode": "W"
+        },
+        {
+            "id": "004a73fc-7136-4f9c-85c0-bfaf2248a93c",
+            "type": "Keyboard.Key",
+            "label": "spaceKey"
+        },
+        {
+            "id": "b2198305-9811-4c94-b275-7bab8d6a26bd",
+            "type": "Keyboard.Key",
+            "label": "shiftKey",
+            "keyCode": "SHIFT"
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "autoPlayAnimation",
+            "label": "Auto Play Animation",
+            "tooltip": "Animation to play when loaded.",
+            "defValue": "idle",
+            "customDefinition": false,
+            "type": {
+                "id": "animation-key"
+            }
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "id": "a717255a-13a7-4cd1-b49e-35e595f8f1cc",
+    "sceneType": "SCENE",
+    "settings": {
+        "snapEnabled": true,
+        "snapWidth": 1,
+        "snapHeight": 1,
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [
+            "hunters_v2/static/assets/asset-pack.json"
+        ],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Start",
+        "compilerOutputLanguage": "TYPE_SCRIPT"
+    },
+    "displayList": [
+        {
+            "type": "Rectangle",
+            "id": "42334c4e-5956-44e8-b28d-c5eacedeff41",
+            "label": "background",
+            "x": 400,
+            "y": 300,
+            "isFilled": true,
+            "fillColor": "#169ac5",
+            "width": 800,
+            "height": 475
+        },
+        {
+            "type": "Image",
+            "id": "74a6a98e-8e16-4ad5-962e-74297ddfa93c",
+            "label": "title",
+            "texture": {
+                "key": "title"
+            },
+            "x": 400,
+            "y": 198,
+            "scaleX": 0.75,
+            "scaleY": 0.75
+        },
+        {
+            "type": "Image",
+            "id": "641680e6-6a03-4c4a-9a27-acaaed3943be",
+            "label": "startButton",
+            "scope": "CLASS",
+            "texture": {
+                "key": "start"
+            },
+            "x": 400,
+            "y": 367
+        },
+        {
+            "type": "Text",
+            "id": "c9c60f2a-52ff-4262-bcd2-fe10eb598469",
+            "label": "controlsButton",
+            "scope": "CLASS",
+            "x": 400,
+            "y": 422.5,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Controls",
+            "fontFamily": "Cursive",
+            "fontSize": "24px"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}
